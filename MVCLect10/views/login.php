@@ -3,7 +3,7 @@ include "views/inc/head.php";
 ?>
 <div class="container my-5 py-5">
   <?php if(!empty($errors)): ?>
-    <div class="alert alert-danger">
+    <div class="alert alert-danger alerts-danger">
       <?php var_dump($errors); ?>
     </div>
   <?php endif; ?>
